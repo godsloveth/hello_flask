@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+{% block main %}
+Home page
+<form action=".">
+    <label>First Name</label>: <input class="names bolded" name="fname" type="text" value="JACK"><br/>
+    <label>Last Name</label>: <input class="names" name="lname" type="text" value="BAUER"><br/>
+    <label>Address</label>: <textarea name="address">57th Street, Manhattan, NY</textarea><br/>
+    <label>Passed Course</label>: <input name="pass" type="radio" value="1"><br/>
+</form>
+{% endblock %}
